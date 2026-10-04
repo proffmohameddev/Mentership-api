@@ -1,18 +1,21 @@
 # Dependencies
 node_modules/
+
 # dotenv secrets
 .env
-.env.* # if you use .env.production, etc.
+.env.*
+!.env.example
 
-# Build/output folders (optional)
+# Build/output
 dist/
 build/
+coverage/
 
 # Logs
 logs/
 *.log
 
-# Uploads (if using disk storage)
+# Uploads
 uploads/
 
 # IDE settings
@@ -20,5 +23,5 @@ uploads/
 .idea/
 .DS_Store
 
-# Swagger cache (if any)
+# Swagger cache
 swagger-output.json
